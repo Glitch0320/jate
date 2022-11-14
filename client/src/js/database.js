@@ -12,32 +12,23 @@ const initdb = async () =>
     },
   });
 
-/*
-  We need to add some code below which will take updated content and save it to IndexedDB.
-*/
 export const putDb = async (content) => {
-  // First, create a variable, and set it to asyncronously await the opening of the database. Replace the items in all caps
+
   const db = await openDB('jate', 1);
 
-  // Now create a variable for the transaction
+
   const tx = db.transaction('jate', 'readwrite');
 
-  // Now create a variable for the store
   const store = tx.objectStore('jate');
 
-  // Now create a variable named "request" and have it perform the update
   const request = store.put({ id: 1, value: content });
 
   const result = await request;
   console.log('🚀 - data saved to the database', result.value);
 };
 
-/*
-  We need to add some code below which will get all content from IndexedDB.
-*/
 export const getDb = async () => {
-  // You can duplicate the same first lines of code from above, except that the transaction will be 'readonly'
-  
+
   const db = await openDB('jate', 1)
 
   const tx = db.transaction('jate', 'readonly')

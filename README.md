@@ -12,11 +12,13 @@ This project was handed to me in the form of starter code given as part of the c
 
 ## Installation
 
-To install this progressive web app, click the install button on the deployed page.
+First, clone this repo, then run 'npm run start' in the root of the cloned repo.
 
 ## Usage
 
-Create, edit, and save styled javascript synax.
+When the server is running, go to 'http://localhost:3000 to run the app in your browser.
+
+Save code snippets, pseudocode, or just code! JATE will save your changes even if you lose connection to the internet, reload the page, or leave the app and return. This app can be installed to your local machine as well.
 
 ## Screenshot
 <img src='./assets/jate.png' alt='Text editor styling code like Visual Studio.' />
@@ -31,7 +33,7 @@ N/A
 
 ### Third Party Attribution
 
-N/A
+University of Minnesota Coding Bootcamp
 
 ### Resources
 

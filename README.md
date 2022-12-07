@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was handed to me in the form of starter code given as part of the curriculum for the U of MN's coding bootcamp, as well as a repo provided by our instructor.
+This project was handed to me in the form of starter code given as part of the curriculum for the U of MN's coding bootcamp, as well as a repo provided by our instructor. It is a javascript text editor that is a Progressive Web App that saves your progress even with the loss of an internet connection.
 
 ## Table of Contents
 - [Installation](#installation)
